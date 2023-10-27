@@ -9,6 +9,245 @@
         
         background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
         }
+        .nav-item.dropdown:hover .dropdown-menu {
+            display: block;
+            color: black;
+            background-color: #6a11cb;
+            text-align: center;
+        }
+        .dropdown-toggle::after {
+            display: none;
+        }
+        .navbar {
+          text-align: center;
+          margin-top: 30px;
+      }
+      
+      .navbar-nav {
+          margin: 0 auto;
+      }
+      
+      .nav-item {
+          position: relative;
+          padding: 20px;
+      }
+      .nav-item a {
+          border-radius: 10px;
+          padding: 10px 20px;
+          color: aliceblue;
+          text-decoration: none;
+          
+      }
+      .nav-item a:hover {
+          background-color: white; 
+          color: black; 
+      }
+      
+      
+      
+      .nav-item {
+          position: relative;
+          padding: 20px;
+          
+      }
+      .nav-item a {
+          border-radius: 10px;
+          padding: 10px 20px;
+          color: white;
+          text-decoration: none;
+      }
+      .nav-item a:hover {
+          background-color: white; 
+          color: black; 
+      }
+      .nav-item.dropdown:hover .dropdown-menu {
+          display: block;
+          color: black;
+          background-color: transparent;
+          text-align: center;
+          border-style: none;
+          font-size: small;
+      }
+      .dropdown-toggle::after {
+          display: none;
+      }
+      
+      .register-container{
+          align-items: center;
+          
+      }
     
 }
 
+/* página de login */
+#logoLogin{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+
+
+
+/* Painel User */
+#logoRH{
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+}
+
+#containerLogin{
+
+  margin-top: 20px;
+  width: 350px;
+  height: 580px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 1px 0px #00000060;
+}
+
+
+
+
+/* página cadastro */
+#containerCad{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    border-style: hidden;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+  #cardCad {
+    padding: 30px;
+    border-radius: 4%;
+    box-shadow: 3px 3px 1px 0px #00000060;
+    width: 350px;
+    height: 510px;
+  }
+  
+  #cardCad h1 {
+    font-size: 30px;
+  }
+  .label-float input{
+    width: 100%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    border-radius: 0;
+    
+  }
+  
+  .label-float{
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  
+  .label-float input:focus{
+    border-bottom: 2px solid #4038a0;
+  }
+  .label-float input{
+    color: white;
+  }
+  
+  .label-float label{
+    color: white;
+    pointer-event: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+  }
+  
+  .label-float input:focus + label,
+  .label-float input:valid + label{
+    font-size: 13px;
+    margin-top: 0;
+    color: white;
+  }
+  
+  
+  #btnCad:hover{
+    background-color:green;
+    color: #fff;
+    border-style: none;
+  }
+  
+
+  .fa-eye{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  #msgError{
+    text-align: center;
+    color: #ff0000;
+    background-color: #ffbbbb;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+  }
+  
+  #msgSuccess{
+    text-align: center;
+    color: #00bb00;
+    background-color: #bbffbe;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+  }
+  
+
+
+/* Controle de Ponto */
+#cardPonto {
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  border-radius: 4%;
+  box-shadow: 3px 3px 1px 0px #00000060;
+}
+
+
+
+/* Folha de pagamento */
+
+#cardFolha{
+  width: 600px;
+  height: 220px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 1px 0px #00000060;
+}
+.fa-eye{
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  cursor: pointer;
+  color: white;
+}
